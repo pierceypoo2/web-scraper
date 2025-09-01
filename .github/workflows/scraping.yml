@@ -1,1 +1,129 @@
+name: Free Web Scraping Pipeline
 
+on:
+  # Manual trigger with inputs
+  workflow_dispatch:
+    inputs:
+      start_url:
+        description: 'Starting URL to scrape'
+        required: true
+        default: 'https://crawl4ai.com/'
+      extract_type:
+        description: 'What to extract'
+        required: true
+        default: 'entities_relationships'
+        type: choice
+        options:
+        - 'entities_relationships'
+        - 'links_only'
+        - 'text_summary'
+      max_pages:
+        description: 'Maximum pages to scrape'
+        required: false
+        default: '3'
+  
+  # Auto-run daily at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * *'
+  
+  # Run when code changes
+  push:
+    branches: [ main ]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/scraping.yml'
+
+jobs:
+  scrape-and-process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+        
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y chromium-browser
+        
+    - name: Install Python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install requests beautifulsoup4 pydantic
+        pip install transformers torch --index-url https://download.pytorch.org/whl/cpu
+        
+    - name: Create output directory
+      run: |
+        mkdir -p output
+        mkdir -p web_interface/data
+        
+    - name: Run free scraping pipeline
+      env:
+        START_URL: ${{ github.event.inputs.start_url || 'https://crawl4ai.com/' }}
+        EXTRACT_TYPE: ${{ github.event.inputs.extract_type || 'entities_relationships' }}
+        MAX_PAGES: ${{ github.event.inputs.max_pages || '3' }}
+      run: |
+        cd scripts
+        python free_scraper.py
+        
+    - name: Convert to Cypher
+      run: |
+        cd scripts
+        python convert_to_cypher.py
+        
+    - name: Prepare web interface data
+      run: |
+        # Copy results to web interface
+        cp output/*.json web_interface/data/ 2>/dev/null || true
+        
+        # Create API status file
+        echo "{
+          \"status\": \"success\",
+          \"timestamp\": \"$(date -Iseconds)\",
+          \"run_id\": \"${{ github.run_number }}\",
+          \"trigger\": \"${{ github.event_name }}\",
+          \"url_scraped\": \"${{ github.event.inputs.start_url || 'https://crawl4ai.com/' }}\"
+        }" > web_interface/data/status.json
+        
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: scraping-results-${{ github.run_number }}
+        path: |
+          output/
+          web_interface/data/
+        retention-days: 30
+        
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./web_interface
+        
+    - name: Create release on success
+      if: github.event_name == 'workflow_dispatch'
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: scrape-${{ github.run_number }}
+        release_name: Scraping Results ${{ github.run_number }}
+        body: |
+          Automated scraping results from ${{ github.event.inputs.start_url || 'scheduled run' }}
+          
+          **Files generated:**
+          - Knowledge graph JSON
+          - Neo4j Cypher queries
+          - Processing logs
+          
+          Download the artifacts to access the files.
+        draft: false
+        prerelease: false
