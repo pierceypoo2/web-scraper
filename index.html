@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Web Scraper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-screen text-white">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <!-- Header -->
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full mb-6">
+                    <i class="fas fa-spider text-3xl"></i>
+                </div>
+                <h1 class="text-5xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-4">
+                    Free Web Scraper
+                </h1>
+                <p class="text-xl text-gray-300">
+                    Extract knowledge graphs using GitHub Actions - completely free!
+                </p>
+            </div>
+
+            <!-- How it Works -->
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 mb-8">
+                <h2 class="text-2xl font-bold mb-6">🚀 How It Works</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <span class="text-xl font-bold">1</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">Enter URL</h3>
+                        <p class="text-sm text-gray-300">Paste any website URL you want to analyze</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <span class="text-xl font-bold">2</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">GitHub Processes</h3>
+                        <p class="text-sm text-gray-300">Free cloud computing extracts data</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-3">
+                            <span class="text-xl font-bold">3</span>
+                        </div>
+                        <h3 class="font-semibold mb-2">Download Results</h3>
+                        <p class="text-sm text-gray-300">Get JSON data and Neo4j queries</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Manual Trigger Form -->
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 mb-8">
+                <h2 class="text-2xl font-bold mb-6">
+                    <i class="fas fa-play mr-3 text-green-400"></i>
+                    Start Scraping
+                </h2>
+                
+                <form id="triggerForm" class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-300 mb-2">
+                            <i class="fas fa-globe mr-2"></i>Website URL
+                        </label>
+                        <input 
+                            type="url" 
+                            id="urlInput" 
+                            placeholder="https://example.com"
+                            class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg focus:ring-2 focus:ring-purple-500 text-white placeholder-gray-400"
+                            required
+                        >
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Extraction Type</label>
+                            <select 
+                                id="extractType"
+                                class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white"
+                            >
+                                <option value="entities_relationships">🧠 Entities & Relationships</option>
+                                <option value="links_only">🔗 Links Only</option>
+                                <option value="text_summary">📝 Text Summary</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-300 mb-2">Max Pages</label>
+                            <select 
+                                id="maxPages"
+                                class="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white"
+                            >
+                                <option value="1">1 page</option>
+                                <option value="3" selected>3 pages</option>
+                                <option value="5">5 pages</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="bg-yellow-500/20 border border-yellow-500/30 rounded-lg p-4">
+                        <p class="text-yellow-200 text-sm">
+                            <i class="fas fa-info-circle mr-2"></i>
+                            This will open GitHub Actions in a new tab. Processing takes 2-5 minutes.
+                        </p>
+                    </div>
+
+                    <button 
+                        type="submit"
+                        class="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-lg transition duration-300 transform hover:scale-105"
+                    >
+                        <i class="fas fa-external-link-alt mr-2"></i>
+                        Trigger GitHub Action
+                    </button>
+                </form>
+            </div>
+
+            <!-- Recent Results -->
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 mb-8">
+                <h2 class="text-2xl font-bold mb-6">
+                    <i class="fas fa-download mr-3 text-blue-400"></i>
+                    Latest Results
+                </h2>
+                
+                <div id="resultsContent">
+                    <div class="text-center text-gray-400 py-8">
+                        <i class="fas fa-clock text-4xl mb-4"></i>
+                        <p>No results yet. Run a scraping job to see results here!</p>
+                    </div>
+                </div>
+                
+                <button 
+                    onclick="loadLatestResults()"
+                    class="w-full bg-white/10 hover:bg-white/20 text-white px-4 py-3 rounded-lg transition duration-200 mt-4"
+                >
+                    <i class="fas fa-refresh mr-2"></i>Check for New Results
+                </button>
+            </div>
+
+            <!-- Instructions -->
+            <div class="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
+                <h2 class="text-2xl font-bold mb-6">📖 Instructions</h2>
+                <div class="space-y-4 text-gray-300">
+                    <div class="flex items-start">
+                        <span class="bg-purple-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5">1</span>
+                        <div>
+                            <strong>Enter a website URL</strong> you want to scrape for entities and relationships
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5">2</span>
+                        <div>
+                            <strong>Click "Trigger GitHub Action"</strong> - this opens GitHub in a new tab
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="bg-green-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5">3</span>
+                        <div>
+                            <strong>Wait 2-5 minutes</strong> for processing to complete on GitHub's servers
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="bg-orange-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5">4</span>
+                        <div>
+                            <strong>Come back and click "Check for New Results"</strong> to see extracted data
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm mr-3 mt-0.5">5</span>
+                        <div>
+                            <strong>Download JSON or Neo4j files</strong> from the results section
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentData = null;
+
+        // Replace with your actual GitHub username
+        const GITHUB_USERNAME = 'pierceypoo2';  // 👈 CHANGE THIS!
+        const REPO_NAME = 'web-scraper';
+
+        document.getElementById('triggerForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const url = document.getElementById('urlInput').value;
+            const extractType = document.getElementById('extractType').value;
+            const maxPages = document.getElementById('maxPages').value;
+            
+            // Create the GitHub Actions URL with parameters
+            const githubUrl = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/actions/workflows/scraping.yml`;
+            
+            // Store parameters in localStorage so we can check results later
+            localStorage.setItem('lastScrapeParams', JSON.stringify({
+                url, extractType, maxPages, timestamp: Date.now()
+            }));
+            
+            // Open GitHub Actions in new tab
+            window.open(githubUrl, '_blank');
+            
+            // Show helpful message
+            showInstructions();
+        });
+
+        function showInstructions() {
+            const resultsContent = document.getElementById('resultsContent');
+            resultsContent.innerHTML = `
+                <div class="bg-blue-500/20 border border-blue-400/30 rounded-lg p-6">
+                    <h3 class="text-lg font-bold text-blue-300 mb-3">
+                        <i class="fas fa-info-circle mr-2"></i>Next Steps
+                    </h3>
+                    <ol class="space-y-2 text-blue-200 text-sm">
+                        <li>1. Click "Run workflow" on the GitHub page that just opened</li>
+                        <li>2. Fill in your URL and settings</li>
+                        <li>3. Click "Run workflow" again</li>
+                        <li>4. Wait 2-5 minutes for processing</li>
+                        <li>5. Come back here and click "Check for New Results"</li>
+                    </ol>
+                </div>
+            `;
+        }
+
+        async function loadLatestResults() {
+            try {
+                // Try to load the status file
+                const statusResponse = await fetch('./data/status.json');
+                if (statusResponse.ok) {
+                    const status = await statusResponse.json();
+                    
+                    // Try to load the actual results
+                    const resultsResponse = await fetch('./data/scraping_summary.json');
+                    if (resultsResponse.ok) {
+                        const results = await resultsResponse.json();
+                        displayResults(results);
+                        return;
+                    }
+                }
+                
+                // If no results found
+                document.getElementById('resultsContent').innerHTML = `
+                    <div class="text-center text-gray-400 py-8">
+                        <i class="fas fa-search text-4xl mb-4"></i>
+                        <p>No results found yet.</p>
+                        <p class="text-sm mt-2">Make sure to run a GitHub Action first!</p>
+                    </div>
+                `;
+                
+            } catch (error) {
+                console.log('Error loading results:', error);
+                document.getElementById('resultsContent').innerHTML = `
+                    <div class="text-center text-yellow-400 py-8">
+                        <i class="fas fa-exclamation-triangle text-4xl mb-4"></i>
+                        <p>Results not ready yet or GitHub Action still running.</p>
+                        <p class="text-sm mt-2">Try again in a few minutes.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function displayResults(results) {
+            const resultsContent = document.getElementById('resultsContent');
+            
+            if (!results || !results.data) {
+                resultsContent.innerHTML = '<div class="text-red-400">Error: No data found</div>';
+                return;
+            }
+
+            let totalEntities = 0;
+            let totalRelationships = 0;
+            
+            results.data.forEach(item => {
+                if (!item.error) {
+                    totalEntities += item.entities?.length || 0;
+                    totalRelationships += item.relationships?.length || 0;
+                }
+            });
+
+            resultsContent.innerHTML = `
+                <!-- Stats -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                    <div class="bg-blue-500/20 p-4 rounded-lg border border-blue-400/30 text-center">
+                        <div class="text-2xl font-bold text-blue-400">${totalEntities}</div>
+                        <div class="text-sm text-blue-200">Entities Found</div>
+                    </div>
+                    <div class="bg-green-500/20 p-4 rounded-lg border border-green-400/30 text-center">
+                        <div class="text-2xl font-bold text-green-400">${totalRelationships}</div>
+                        <div class="text-sm text-green-200">Relationships</div>
+                    </div>
+                    <div class="bg-purple-500/20 p-4 rounded-lg border border-purple-400/30 text-center">
+                        <div class="text-2xl font-bold text-purple-400">${results.successful_scrapes}</div>
+                        <div class="text-sm text-purple-200">Pages Scraped</div>
+                    </div>
+                </div>
+
+                <!-- Download Buttons -->
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <button 
+                        onclick="downloadResultsJSON()"
+                        class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition duration-200"
+                    >
+                        <i class="fas fa-download mr-2"></i>Download JSON
+                    </button>
+                    <button 
+                        onclick="downloadCypherFile()"
+                        class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg transition duration-200"
+                    >
+                        <i class="fas fa-database mr-2"></i>Download Neo4j Queries
+                    </button>
+                    <button 
+                        onclick="viewGithubActions()"
+                        class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition duration-200"
+                    >
+                        <i class="fab fa-github mr-2"></i>View GitHub Actions
+                    </button>
+                </div>
+
+                <!-- Sample Entities -->
+                <div class="mb-6">
+                    <h3 class="text-lg font-bold mb-3 text-blue-300">🏷️ Sample Entities</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        ${results.data.slice(0, 1).map(item => 
+                            item.entities?.slice(0, 6).map(entity => `
+                                <div class="bg-blue-500/20 p-3 rounded-lg border border-blue-400/30">
+                                    <div class="font-medium text-blue-300">${entity.name}</div>
+                                    <div class="text-xs text-gray-400 mt-1">${entity.description.substring(0, 100)}...</div>
+                                </div>
+                            `).join('') || ''
+                        ).join('')}
+                    </div>
+                </div>
+
+                <!-- Sample Relationships -->
+                <div>
+                    <h3 class="text-lg font-bold mb-3 text-green-300">🔗 Sample Relationships</h3>
+                    <div class="space-y-3">
+                        ${results.data.slice(0, 1).map(item => 
+                            item.relationships?.slice(0, 4).map(rel => `
+                                <div class="bg-green-500/20 p-3 rounded-lg border border-green-400/30">
+                                    <div class="font-medium text-green-300">
+                                        ${rel.entity1.name} 
+                                        <i class="fas fa-arrow-right mx-2 text-green-400"></i>
+                                        ${rel.entity2.name}
+                                    </div>
+                                    <div class="text-xs text-green-400">${rel.relation_type}</div>
+                                </div>
+                            `).join('') || ''
+                        ).join('')}
+                    </div>
+                </div>
+            `;
+            
+            currentData = results;
+        }
+
+        function downloadResultsJSON() {
+            if (!currentData) return;
+            
+            const dataStr = JSON.stringify(currentData, null, 2);
+            downloadFile(dataStr, `scraping_results_${new Date().toISOString().slice(0,10)}.json`, 'application/json');
+        }
+
+        function downloadCypherFile() {
+            if (!currentData || !currentData.data) return;
+            
+            let cypherContent = [
+                '// Neo4j Knowledge Graph Import',
+                `// Generated: ${new Date().toISOString()}`,
+                '// Source: GitHub Actions Free Web Scraper',
+                '',
+                '// Create constraints',
+                'CREATE CONSTRAINT entity_name_unique IF NOT EXISTS FOR (e:Entity) REQUIRE e.name IS UNIQUE;',
+                '',
+                '// Clear existing data (uncomment if needed)',
+                '// MATCH (n) DETACH DELETE n;',
+                ''
+            ];
+
+            currentData.data.forEach((item, index) => {
+                if (!item.error) {
+                    cypherContent.push(`// Page ${index + 1}: ${item.source_url || 'unknown'}`);
+                    
+                    // Add entities
+                    if (item.entities) {
+                        cypherContent.push('// Entities');
+                        item.entities.forEach(entity => {
+                            const name = entity.name.replace(/"/g, '\\"');
+                            const desc = entity.description.replace(/"/g, '\\"');
+                            cypherContent.push(`MERGE (e:Entity {name: "${name}"}) SET e.description = "${desc}";`);
+                        });
+                    }
+                    
+                    // Add relationships
+                    if (item.relationships) {
+                        cypherContent.push('// Relationships');
+                        item.relationships.forEach(rel => {
+                            const name1 = rel.entity1.name.replace(/"/g, '\\"');
+                            const name2 = rel.entity2.name.replace(/"/g, '\\"');
+                            const relType = rel.relation_type.replace(/"/g, '\\"');
+                            const desc = rel.description.replace(/"/g, '\\"');
+                            
+                            cypherContent.push(`MATCH (e1:Entity {name: "${name1}"}), (e2:Entity {name: "${name2}"}) MERGE (e1)-[r:RELATES_TO {type: "${relType}", description: "${desc}"}]->(e2);`);
+                        });
+                    }
+                    
+                    cypherContent.push('');
+                }
+            });
+
+            const cypherStr = cypherContent.join('\n');
+            downloadFile(cypherStr, `neo4j_import_${new Date().toISOString().slice(0,10)}.cypher`, 'text/plain');
+        }
+
+        function downloadFile(content, filename, mimeType) {
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        function viewGithubActions() {
+            const url = `https://github.com/${GITHUB_USERNAME}/${REPO_NAME}/actions`;
+            window.open(url, '_blank');
+        }
+
+        // Auto-populate demo URL
+        window.addEventListener('load', () => {
+            document.getElementById('urlInput').value = 'https://crawl4ai.com/';
+            loadLatestResults();
+        });
+
+        // Auto-add https:// if missing
+        document.getElementById('urlInput').addEventListener('input', (e) => {
+            const url = e.target.value;
+            if (url && !url.startsWith('http') && url.includes('.')) {
+                e.target.value = 'https://' + url;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,722 @@
+[
+  {
+    "entities": [
+      {
+        "name": "Home",
+        "description": "Entity extracted from crawl4ai.com: Home"
+      },
+      {
+        "name": "Documentation",
+        "description": "Entity extracted from crawl4ai.com: Documentation"
+      },
+      {
+        "name": "Open",
+        "description": "Entity extracted from crawl4ai.com: Open"
+      },
+      {
+        "name": "Source",
+        "description": "Entity extracted from crawl4ai.com: Source"
+      },
+      {
+        "name": "Friendly Web Crawler",
+        "description": "Entity extracted from crawl4ai.com: Friendly Web Crawler"
+      },
+      {
+        "name": "Scraper",
+        "description": "Entity extracted from crawl4ai.com: Scraper"
+      },
+      {
+        "name": "Fully",
+        "description": "Entity extracted from crawl4ai.com: Fully"
+      },
+      {
+        "name": "Note",
+        "description": "Entity extracted from crawl4ai.com: Note"
+      },
+      {
+        "name": "New",
+        "description": "Entity extracted from crawl4ai.com: New"
+      },
+      {
+        "name": "Adaptive Web Crawling",
+        "description": "Entity extracted from crawl4ai.com: Adaptive Web Crawling"
+      },
+      {
+        "name": "Using",
+        "description": "Entity extracted from crawl4ai.com: Using"
+      },
+      {
+        "name": "Learn",
+        "description": "Entity extracted from crawl4ai.com: Learn"
+      },
+      {
+        "name": "Adaptive Crawling",
+        "description": "Entity extracted from crawl4ai.com: Adaptive Crawling"
+      },
+      {
+        "name": "Quick Start Here",
+        "description": "Entity extracted from crawl4ai.com: Quick Start Here"
+      },
+      {
+        "name": "Create",
+        "description": "Entity extracted from crawl4ai.com: Create"
+      },
+      {
+        "name": "Run",
+        "description": "Entity extracted from crawl4ai.com: Run"
+      },
+      {
+        "name": "Print",
+        "description": "Entity extracted from crawl4ai.com: Print"
+      },
+      {
+        "name": "Video Tutorial What Does",
+        "description": "Entity extracted from crawl4ai.com: Video Tutorial What Does"
+      },
+      {
+        "name": "Generate Clean Markdown",
+        "description": "Entity extracted from crawl4ai.com: Generate Clean Markdown"
+      },
+      {
+        "name": "Perfect",
+        "description": "Entity extracted from crawl4ai.com: Perfect"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Home"
+        },
+        "entity2": {
+          "name": "Documentation"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Home - Crawl4AI Documentation (v0..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Friendly Web Crawler"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Documentation"
+        },
+        "entity2": {
+          "name": "Note"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Note: If you're looking for the old documentation, you can access it here..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Web Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Adaptive Web Crawling"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Learn"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Learn more about Adaptive Crawling → Quick Start Here's a quick example to show you how easy it is ..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "rule_based",
+    "text_length": 3916,
+    "source_url": "https://crawl4ai.com/"
+  },
+  {
+    "entities": [
+      {
+        "name": "Stargazers",
+        "description": "Entity extracted from github.com: Stargazers"
+      },
+      {
+        "name": "Skip",
+        "description": "Entity extracted from github.com: Skip"
+      },
+      {
+        "name": "You",
+        "description": "Entity extracted from github.com: You"
+      },
+      {
+        "name": "Reload",
+        "description": "Entity extracted from github.com: Reload"
+      },
+      {
+        "name": "Dismiss",
+        "description": "Entity extracted from github.com: Dismiss"
+      },
+      {
+        "name": "Public Uh",
+        "description": "Entity extracted from github.com: Public Uh"
+      },
+      {
+        "name": "There",
+        "description": "Entity extracted from github.com: There"
+      },
+      {
+        "name": "Please",
+        "description": "Entity extracted from github.com: Please"
+      },
+      {
+        "name": "Notifications You",
+        "description": "Entity extracted from github.com: Notifications You"
+      },
+      {
+        "name": "Fork",
+        "description": "Entity extracted from github.com: Fork"
+      },
+      {
+        "name": "Star",
+        "description": "Entity extracted from github.com: Star"
+      },
+      {
+        "name": "Stargazers Neriysp Joined",
+        "description": "Entity extracted from github.com: Stargazers Neriysp Joined"
+      },
+      {
+        "name": "Jan",
+        "description": "Entity extracted from github.com: Jan"
+      },
+      {
+        "name": "Follow",
+        "description": "Entity extracted from github.com: Follow"
+      },
+      {
+        "name": "Joined",
+        "description": "Entity extracted from github.com: Joined"
+      },
+      {
+        "name": "Jul",
+        "description": "Entity extracted from github.com: Jul"
+      },
+      {
+        "name": "France France Follow",
+        "description": "Entity extracted from github.com: France France Follow"
+      },
+      {
+        "name": "Sep",
+        "description": "Entity extracted from github.com: Sep"
+      },
+      {
+        "name": "Aug",
+        "description": "Entity extracted from github.com: Aug"
+      },
+      {
+        "name": "May",
+        "description": "Entity extracted from github.com: May"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Stargazers"
+        },
+        "entity2": {
+          "name": "Skip"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "Stargazers"
+        },
+        "entity2": {
+          "name": "You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "Stargazers"
+        },
+        "entity2": {
+          "name": "Star"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "Skip"
+        },
+        "entity2": {
+          "name": "You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "Skip"
+        },
+        "entity2": {
+          "name": "Star"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Star"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Stargazers · unclecode/crawl4ai · GitHub Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "Dismiss"
+        },
+        "entity2": {
+          "name": "Public Uh"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Dismiss alert unclecode crawl4ai Public Uh oh..."
+      },
+      {
+        "entity1": {
+          "name": "Reload"
+        },
+        "entity2": {
+          "name": "Please"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Please reload this page..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Notifications You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Fork"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "Notifications You"
+        },
+        "entity2": {
+          "name": "Fork"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "Stargazers"
+        },
+        "entity2": {
+          "name": "You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: 9k Stargazers Neriysp Joined on Jan 10, 2017 Follow fouash Joined on Jul 3, 2019 Follow lolosneakers..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "rule_based",
+    "text_length": 1560,
+    "source_url": "https://github.com/unclecode/crawl4ai/stargazers"
+  },
+  {
+    "entities": [
+      {
+        "name": "Open",
+        "description": "Entity extracted from github.com: Open"
+      },
+      {
+        "name": "Friendly Web Crawler",
+        "description": "Entity extracted from github.com: Friendly Web Crawler"
+      },
+      {
+        "name": "Scraper",
+        "description": "Entity extracted from github.com: Scraper"
+      },
+      {
+        "name": "Don",
+        "description": "Entity extracted from github.com: Don"
+      },
+      {
+        "name": "Skip",
+        "description": "Entity extracted from github.com: Skip"
+      },
+      {
+        "name": "You",
+        "description": "Entity extracted from github.com: You"
+      },
+      {
+        "name": "Reload",
+        "description": "Entity extracted from github.com: Reload"
+      },
+      {
+        "name": "Dismiss",
+        "description": "Entity extracted from github.com: Dismiss"
+      },
+      {
+        "name": "Public Uh",
+        "description": "Entity extracted from github.com: Public Uh"
+      },
+      {
+        "name": "There",
+        "description": "Entity extracted from github.com: There"
+      },
+      {
+        "name": "Please",
+        "description": "Entity extracted from github.com: Please"
+      },
+      {
+        "name": "Notifications You",
+        "description": "Entity extracted from github.com: Notifications You"
+      },
+      {
+        "name": "Fork",
+        "description": "Entity extracted from github.com: Fork"
+      },
+      {
+        "name": "Star",
+        "description": "Entity extracted from github.com: Star"
+      },
+      {
+        "name": "License Apache",
+        "description": "Entity extracted from github.com: License Apache"
+      },
+      {
+        "name": "Branches Tags Activity Star Notifications You",
+        "description": "Entity extracted from github.com: Branches Tags Activity Star Notifications You"
+      },
+      {
+        "name": "Commits",
+        "description": "Entity extracted from github.com: Commits"
+      },
+      {
+        "name": "View",
+        "description": "Entity extracted from github.com: View"
+      },
+      {
+        "name": "Markdown",
+        "description": "Entity extracted from github.com: Markdown"
+      },
+      {
+        "name": "Fast",
+        "description": "Entity extracted from github.com: Fast"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      },
+      {
+        "entity1": {
+          "name": "Friendly Web Crawler"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      },
+      {
+        "entity1": {
+          "name": "Skip"
+        },
+        "entity2": {
+          "name": "You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: gg/jP8KfhDhyN Skip to content You signed in with another tab or window..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Reload"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Reload to refresh your session..."
+      },
+      {
+        "entity1": {
+          "name": "Dismiss"
+        },
+        "entity2": {
+          "name": "Public Uh"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Dismiss alert unclecode crawl4ai Public Uh oh..."
+      },
+      {
+        "entity1": {
+          "name": "Reload"
+        },
+        "entity2": {
+          "name": "Please"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Please reload this page..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Notifications You"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "You"
+        },
+        "entity2": {
+          "name": "Fork"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "Notifications You"
+        },
+        "entity2": {
+          "name": "Fork"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: 9k 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: 9k 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      },
+      {
+        "entity1": {
+          "name": "Friendly Web Crawler"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: 9k 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "rule_based",
+    "text_length": 8000,
+    "source_url": "https://github.com/unclecode/crawl4ai"
+  }
+]
