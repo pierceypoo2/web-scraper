@@ -1,733 +1,733 @@
 {
   "pipeline_status": "completed",
-  "timestamp": "2025-09-01T21:12:47.698603",
-  "start_url": "https://crawl4ai.com/",
+  "timestamp": "2025-09-01T21:23:37.166906",
+  "start_url": "https://docs.python.org",
   "extract_type": "entities_relationships",
   "urls_processed": 3,
   "successful_scrapes": 3,
   "total_entities": 60,
   "total_relationships": 45,
-  "output_file": "../output/kb_result_20250901_211247.json",
+  "output_file": "../output/kb_result_20250901_212337.json",
   "data": [
     {
       "entities": [
         {
-          "name": "Home",
-          "description": "Entity extracted from crawl4ai.com: Home"
+          "name": "Documentation Navigation",
+          "description": "Entity extracted from docs.python.org: Documentation Navigation"
+        },
+        {
+          "name": "Python",
+          "description": "Entity extracted from docs.python.org: Python"
         },
         {
           "name": "Documentation",
-          "description": "Entity extracted from crawl4ai.com: Documentation"
+          "description": "Entity extracted from docs.python.org: Documentation"
         },
         {
-          "name": "Open",
-          "description": "Entity extracted from crawl4ai.com: Open"
+          "name": "Theme Auto Light Dark Python",
+          "description": "Entity extracted from docs.python.org: Theme Auto Light Dark Python"
         },
         {
-          "name": "Source",
-          "description": "Entity extracted from crawl4ai.com: Source"
+          "name": "Welcome",
+          "description": "Entity extracted from docs.python.org: Welcome"
         },
         {
-          "name": "Friendly Web Crawler",
-          "description": "Entity extracted from crawl4ai.com: Friendly Web Crawler"
+          "name": "This",
+          "description": "Entity extracted from docs.python.org: This"
         },
         {
-          "name": "Scraper",
-          "description": "Entity extracted from crawl4ai.com: Scraper"
+          "name": "What",
+          "description": "Entity extracted from docs.python.org: What"
         },
         {
-          "name": "Fully",
-          "description": "Entity extracted from crawl4ai.com: Fully"
+          "name": "Tutorial Start",
+          "description": "Entity extracted from docs.python.org: Tutorial Start"
         },
         {
-          "name": "Note",
-          "description": "Entity extracted from crawl4ai.com: Note"
+          "name": "Library",
+          "description": "Entity extracted from docs.python.org: Library"
         },
         {
-          "name": "New",
-          "description": "Entity extracted from crawl4ai.com: New"
+          "name": "Standard",
+          "description": "Entity extracted from docs.python.org: Standard"
         },
         {
-          "name": "Adaptive Web Crawling",
-          "description": "Entity extracted from crawl4ai.com: Adaptive Web Crawling"
+          "name": "Language",
+          "description": "Entity extracted from docs.python.org: Language"
         },
         {
-          "name": "Using",
-          "description": "Entity extracted from crawl4ai.com: Using"
+          "name": "Syntax",
+          "description": "Entity extracted from docs.python.org: Syntax"
         },
         {
-          "name": "Learn",
-          "description": "Entity extracted from crawl4ai.com: Learn"
+          "name": "How",
+          "description": "Entity extracted from docs.python.org: How"
         },
         {
-          "name": "Adaptive Crawling",
-          "description": "Entity extracted from crawl4ai.com: Adaptive Crawling"
+          "name": "Python Python",
+          "description": "Entity extracted from docs.python.org: Python Python"
         },
         {
-          "name": "Quick Start Here",
-          "description": "Entity extracted from crawl4ai.com: Quick Start Here"
+          "name": "Installing Python",
+          "description": "Entity extracted from docs.python.org: Installing Python"
         },
         {
-          "name": "Create",
-          "description": "Entity extracted from crawl4ai.com: Create"
+          "name": "Third",
+          "description": "Entity extracted from docs.python.org: Third"
         },
         {
-          "name": "Run",
-          "description": "Entity extracted from crawl4ai.com: Run"
+          "name": "Distributing Python",
+          "description": "Entity extracted from docs.python.org: Distributing Python"
         },
         {
-          "name": "Print",
-          "description": "Entity extracted from crawl4ai.com: Print"
+          "name": "Publishing",
+          "description": "Entity extracted from docs.python.org: Publishing"
         },
         {
-          "name": "Video Tutorial What Does",
-          "description": "Entity extracted from crawl4ai.com: Video Tutorial What Does"
+          "name": "Extending",
+          "description": "Entity extracted from docs.python.org: Extending"
         },
         {
-          "name": "Generate Clean Markdown",
-          "description": "Entity extracted from crawl4ai.com: Generate Clean Markdown"
-        },
-        {
-          "name": "Perfect",
-          "description": "Entity extracted from crawl4ai.com: Perfect"
+          "name": "For",
+          "description": "Entity extracted from docs.python.org: For"
         }
       ],
       "relationships": [
         {
           "entity1": {
-            "name": "Home"
+            "name": "Documentation Navigation"
+          },
+          "entity2": {
+            "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
+        },
+        {
+          "entity1": {
+            "name": "Documentation Navigation"
           },
           "entity2": {
             "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Home - Crawl4AI Documentation (v0..."
+          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Source"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Friendly Web Crawler"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Scraper"
+            "name": "Theme Auto Light Dark Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
-        },
-        {
-          "entity1": {
-            "name": "Source"
-          },
-          "entity2": {
-            "name": "Friendly Web Crawler"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
-        },
-        {
-          "entity1": {
-            "name": "Source"
-          },
-          "entity2": {
-            "name": "Scraper"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
-        },
-        {
-          "entity1": {
-            "name": "Friendly Web Crawler"
-          },
-          "entity2": {
-            "name": "Scraper"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: x) \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
-        },
-        {
-          "entity1": {
-            "name": "Open"
-          },
-          "entity2": {
-            "name": "Source"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
-        },
-        {
-          "entity1": {
-            "name": "Open"
-          },
-          "entity2": {
-            "name": "Fully"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
-        },
-        {
-          "entity1": {
-            "name": "Source"
-          },
-          "entity2": {
-            "name": "Fully"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
             "name": "Documentation"
           },
           "entity2": {
-            "name": "Note"
+            "name": "Theme Auto Light Dark Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Note: If you're looking for the old documentation, you can access it here..."
+          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
-            "name": "New"
+            "name": "Documentation"
           },
           "entity2": {
-            "name": "Adaptive Web Crawling"
+            "name": "Welcome"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  \ud83c\udfaf New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+          "description": "Relationship found in context: 7 documentation Welcome..."
         },
         {
           "entity1": {
-            "name": "New"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Adaptive Crawling"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  \ud83c\udfaf New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "Adaptive Web Crawling"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Adaptive Crawling"
+            "name": "This"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  \ud83c\udfaf New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "Learn"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Adaptive Crawling"
+            "name": "For"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Learn more about Adaptive Crawling \u2192 Quick Start Here's a quick example to show you how easy it is ..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Documentation"
+          },
+          "entity2": {
+            "name": "This"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Documentation"
+          },
+          "entity2": {
+            "name": "For"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "This"
+          },
+          "entity2": {
+            "name": "For"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Python"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Python"
+          },
+          "entity2": {
+            "name": "What"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
         }
       ],
       "error": false,
       "extraction_method": "rule_based",
-      "text_length": 3916,
-      "source_url": "https://crawl4ai.com/"
+      "text_length": 2307,
+      "source_url": "https://docs.python.org"
     },
     {
       "entities": [
         {
-          "name": "Stargazers",
-          "description": "Entity extracted from github.com: Stargazers"
+          "name": "Documentation Navigation",
+          "description": "Entity extracted from docs.python.org: Documentation Navigation"
         },
         {
-          "name": "Skip",
-          "description": "Entity extracted from github.com: Skip"
+          "name": "Python",
+          "description": "Entity extracted from docs.python.org: Python"
         },
         {
-          "name": "You",
-          "description": "Entity extracted from github.com: You"
+          "name": "Documentation",
+          "description": "Entity extracted from docs.python.org: Documentation"
         },
         {
-          "name": "Reload",
-          "description": "Entity extracted from github.com: Reload"
+          "name": "Theme Auto Light Dark Python",
+          "description": "Entity extracted from docs.python.org: Theme Auto Light Dark Python"
         },
         {
-          "name": "Dismiss",
-          "description": "Entity extracted from github.com: Dismiss"
+          "name": "Welcome",
+          "description": "Entity extracted from docs.python.org: Welcome"
         },
         {
-          "name": "Public Uh",
-          "description": "Entity extracted from github.com: Public Uh"
+          "name": "This",
+          "description": "Entity extracted from docs.python.org: This"
         },
         {
-          "name": "There",
-          "description": "Entity extracted from github.com: There"
+          "name": "What",
+          "description": "Entity extracted from docs.python.org: What"
         },
         {
-          "name": "Please",
-          "description": "Entity extracted from github.com: Please"
+          "name": "Tutorial Start",
+          "description": "Entity extracted from docs.python.org: Tutorial Start"
         },
         {
-          "name": "Notifications You",
-          "description": "Entity extracted from github.com: Notifications You"
+          "name": "Library",
+          "description": "Entity extracted from docs.python.org: Library"
         },
         {
-          "name": "Fork",
-          "description": "Entity extracted from github.com: Fork"
+          "name": "Standard",
+          "description": "Entity extracted from docs.python.org: Standard"
         },
         {
-          "name": "Star",
-          "description": "Entity extracted from github.com: Star"
+          "name": "Language",
+          "description": "Entity extracted from docs.python.org: Language"
         },
         {
-          "name": "Stargazers Neriysp Joined",
-          "description": "Entity extracted from github.com: Stargazers Neriysp Joined"
+          "name": "Syntax",
+          "description": "Entity extracted from docs.python.org: Syntax"
         },
         {
-          "name": "Jan",
-          "description": "Entity extracted from github.com: Jan"
+          "name": "How",
+          "description": "Entity extracted from docs.python.org: How"
         },
         {
-          "name": "Follow",
-          "description": "Entity extracted from github.com: Follow"
+          "name": "Python Python",
+          "description": "Entity extracted from docs.python.org: Python Python"
         },
         {
-          "name": "Joined",
-          "description": "Entity extracted from github.com: Joined"
+          "name": "Installing Python",
+          "description": "Entity extracted from docs.python.org: Installing Python"
         },
         {
-          "name": "Jul",
-          "description": "Entity extracted from github.com: Jul"
+          "name": "Third",
+          "description": "Entity extracted from docs.python.org: Third"
         },
         {
-          "name": "France France Follow",
-          "description": "Entity extracted from github.com: France France Follow"
+          "name": "Distributing Python",
+          "description": "Entity extracted from docs.python.org: Distributing Python"
         },
         {
-          "name": "Sep",
-          "description": "Entity extracted from github.com: Sep"
+          "name": "Publishing",
+          "description": "Entity extracted from docs.python.org: Publishing"
         },
         {
-          "name": "Aug",
-          "description": "Entity extracted from github.com: Aug"
+          "name": "Extending",
+          "description": "Entity extracted from docs.python.org: Extending"
         },
         {
-          "name": "May",
-          "description": "Entity extracted from github.com: May"
+          "name": "For",
+          "description": "Entity extracted from docs.python.org: For"
         }
       ],
       "relationships": [
         {
           "entity1": {
-            "name": "Stargazers"
+            "name": "Documentation Navigation"
           },
           "entity2": {
-            "name": "Skip"
+            "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "Stargazers"
+            "name": "Documentation Navigation"
           },
           "entity2": {
-            "name": "You"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "Stargazers"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Star"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "Skip"
+            "name": "Python"
           },
           "entity2": {
-            "name": "You"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
-            "name": "Skip"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Star"
+            "name": "Theme Auto Light Dark Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Documentation"
           },
           "entity2": {
-            "name": "Star"
+            "name": "Theme Auto Light Dark Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: Stargazers \u00b7 unclecode/crawl4ai \u00b7 GitHub Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Documentation"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "Welcome"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context: 0rc2 documentation Welcome..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "This"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "Dismiss"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Public Uh"
+            "name": "For"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Dismiss alert unclecode crawl4ai Public Uh oh..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "Reload"
+            "name": "Documentation"
           },
           "entity2": {
-            "name": "Please"
+            "name": "This"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Please reload this page..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Documentation"
           },
           "entity2": {
-            "name": "Notifications You"
+            "name": "For"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "This"
           },
           "entity2": {
-            "name": "Fork"
+            "name": "For"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context:  This is the official documentation for Python 3..."
         },
         {
           "entity1": {
-            "name": "Notifications You"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Fork"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
         },
         {
           "entity1": {
-            "name": "Stargazers"
+            "name": "Python"
           },
           "entity2": {
-            "name": "You"
+            "name": "What"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 9k Stargazers Neriysp Joined on Jan 10, 2017 Follow fouash Joined on Jul 3, 2019 Follow lolosneakers..."
+          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
         }
       ],
       "error": false,
       "extraction_method": "rule_based",
-      "text_length": 1560,
-      "source_url": "https://github.com/unclecode/crawl4ai/stargazers"
+      "text_length": 2316,
+      "source_url": "https://docs.python.org/3.14/"
     },
     {
       "entities": [
         {
-          "name": "Open",
-          "description": "Entity extracted from github.com: Open"
+          "name": "History",
+          "description": "Entity extracted from docs.python.org: History"
         },
         {
-          "name": "Friendly Web Crawler",
-          "description": "Entity extracted from github.com: Friendly Web Crawler"
+          "name": "License",
+          "description": "Entity extracted from docs.python.org: License"
         },
         {
-          "name": "Scraper",
-          "description": "Entity extracted from github.com: Scraper"
+          "name": "Python",
+          "description": "Entity extracted from docs.python.org: Python"
         },
         {
-          "name": "Don",
-          "description": "Entity extracted from github.com: Don"
+          "name": "Navigation",
+          "description": "Entity extracted from docs.python.org: Navigation"
         },
         {
-          "name": "Skip",
-          "description": "Entity extracted from github.com: Skip"
+          "name": "Documentation",
+          "description": "Entity extracted from docs.python.org: Documentation"
         },
         {
-          "name": "You",
-          "description": "Entity extracted from github.com: You"
+          "name": "License Theme Auto Light Dark History",
+          "description": "Entity extracted from docs.python.org: License Theme Auto Light Dark History"
         },
         {
-          "name": "Reload",
-          "description": "Entity extracted from github.com: Reload"
+          "name": "Guido",
+          "description": "Entity extracted from docs.python.org: Guido"
         },
         {
-          "name": "Dismiss",
-          "description": "Entity extracted from github.com: Dismiss"
+          "name": "Rossum",
+          "description": "Entity extracted from docs.python.org: Rossum"
         },
         {
-          "name": "Public Uh",
-          "description": "Entity extracted from github.com: Public Uh"
+          "name": "Stichting Mathematisch Centrum",
+          "description": "Entity extracted from docs.python.org: Stichting Mathematisch Centrum"
         },
         {
-          "name": "There",
-          "description": "Entity extracted from github.com: There"
+          "name": "Netherlands",
+          "description": "Entity extracted from docs.python.org: Netherlands"
         },
         {
-          "name": "Please",
-          "description": "Entity extracted from github.com: Please"
+          "name": "Corporation",
+          "description": "Entity extracted from docs.python.org: Corporation"
         },
         {
-          "name": "Notifications You",
-          "description": "Entity extracted from github.com: Notifications You"
+          "name": "National Research Initiatives",
+          "description": "Entity extracted from docs.python.org: National Research Initiatives"
         },
         {
-          "name": "Fork",
-          "description": "Entity extracted from github.com: Fork"
+          "name": "Reston",
+          "description": "Entity extracted from docs.python.org: Reston"
         },
         {
-          "name": "Star",
-          "description": "Entity extracted from github.com: Star"
+          "name": "Virginia",
+          "description": "Entity extracted from docs.python.org: Virginia"
         },
         {
-          "name": "License Apache",
-          "description": "Entity extracted from github.com: License Apache"
+          "name": "In May",
+          "description": "Entity extracted from docs.python.org: In May"
         },
         {
-          "name": "Branches Tags Activity Star Notifications You",
-          "description": "Entity extracted from github.com: Branches Tags Activity Star Notifications You"
+          "name": "In October",
+          "description": "Entity extracted from docs.python.org: In October"
         },
         {
-          "name": "Commits",
-          "description": "Entity extracted from github.com: Commits"
+          "name": "Digital Creations",
+          "description": "Entity extracted from docs.python.org: Digital Creations"
         },
         {
-          "name": "View",
-          "description": "Entity extracted from github.com: View"
+          "name": "Zope Corporation",
+          "description": "Entity extracted from docs.python.org: Zope Corporation"
         },
         {
-          "name": "Markdown",
-          "description": "Entity extracted from github.com: Markdown"
+          "name": "Python Software Foundation",
+          "description": "Entity extracted from docs.python.org: Python Software Foundation"
         },
         {
-          "name": "Fast",
-          "description": "Entity extracted from github.com: Fast"
+          "name": "Intellectual Property",
+          "description": "Entity extracted from docs.python.org: Intellectual Property"
         }
       ],
       "relationships": [
         {
           "entity1": {
-            "name": "Open"
+            "name": "History"
           },
           "entity2": {
-            "name": "Friendly Web Crawler"
+            "name": "License"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: GitHub - unclecode/crawl4ai: \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: History and License \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "History"
           },
           "entity2": {
-            "name": "Scraper"
+            "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: GitHub - unclecode/crawl4ai: \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: History and License \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Friendly Web Crawler"
+            "name": "License"
           },
           "entity2": {
-            "name": "Scraper"
+            "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: GitHub - unclecode/crawl4ai: \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: History and License \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Skip"
+            "name": "Python"
           },
           "entity2": {
-            "name": "You"
+            "name": "Navigation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: gg/jP8KfhDhyN Skip to content You signed in with another tab or window..."
+          "description": "Relationship found in context: 7 documentation Navigation index modules | previous | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context: 7 documentation Navigation index modules | previous | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "Navigation"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context: 7 documentation Navigation index modules | previous | Python \u00bb 3..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "History"
           },
           "entity2": {
-            "name": "Reload"
+            "name": "License"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Reload to refresh your session..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Dismiss"
+            "name": "History"
           },
           "entity2": {
-            "name": "Public Uh"
+            "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Dismiss alert unclecode crawl4ai Public Uh oh..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Reload"
+            "name": "History"
           },
           "entity2": {
-            "name": "Please"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Please reload this page..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "History"
           },
           "entity2": {
-            "name": "Notifications You"
+            "name": "License Theme Auto Light Dark History"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "You"
+            "name": "History"
           },
           "entity2": {
-            "name": "Fork"
+            "name": "Guido"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Notifications You"
+            "name": "History"
           },
           "entity2": {
-            "name": "Fork"
+            "name": "Rossum"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Notifications You must be signed in to change notification settings Fork 5..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "History"
           },
           "entity2": {
-            "name": "Friendly Web Crawler"
+            "name": "Stichting Mathematisch Centrum"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 9k \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Open"
+            "name": "License"
           },
           "entity2": {
-            "name": "Scraper"
+            "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 9k \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         },
         {
           "entity1": {
-            "name": "Friendly Web Crawler"
+            "name": "License"
           },
           "entity2": {
-            "name": "Scraper"
+            "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 9k \ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper..."
+          "description": "Relationship found in context: 7 Documentation \u00bb History and License Theme Auto Light Dark History and License\u00b6 History of the soft..."
         }
       ],
       "error": false,
       "extraction_method": "rule_based",
       "text_length": 8000,
-      "source_url": "https://github.com/unclecode/crawl4ai"
+      "source_url": "https://docs.python.org/license.html"
     }
   ]
 }
