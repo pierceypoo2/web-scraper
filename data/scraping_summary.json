@@ -1,407 +1,167 @@
 {
   "pipeline_status": "completed",
-  "timestamp": "2025-09-01T21:23:37.166906",
-  "start_url": "https://docs.python.org",
+  "timestamp": "2025-09-01T21:38:43.180424",
+  "start_url": "https://docs.python.org/3/tutorial/",
   "extract_type": "entities_relationships",
   "urls_processed": 3,
   "successful_scrapes": 3,
   "total_entities": 60,
   "total_relationships": 45,
-  "output_file": "../output/kb_result_20250901_212337.json",
+  "output_file": "../output/kb_result_20250901_213843.json",
   "data": [
     {
       "entities": [
         {
-          "name": "Documentation Navigation",
-          "description": "Entity extracted from docs.python.org: Documentation Navigation"
+          "name": "The Python Tutorial",
+          "description": "Entity extracted from docs.python.org: The Python Tutorial"
         },
         {
           "name": "Python",
           "description": "Entity extracted from docs.python.org: Python"
         },
         {
-          "name": "Documentation",
-          "description": "Entity extracted from docs.python.org: Documentation"
-        },
-        {
-          "name": "Theme Auto Light Dark Python",
-          "description": "Entity extracted from docs.python.org: Theme Auto Light Dark Python"
-        },
-        {
-          "name": "Welcome",
-          "description": "Entity extracted from docs.python.org: Welcome"
-        },
-        {
-          "name": "This",
-          "description": "Entity extracted from docs.python.org: This"
-        },
-        {
-          "name": "What",
-          "description": "Entity extracted from docs.python.org: What"
-        },
-        {
-          "name": "Tutorial Start",
-          "description": "Entity extracted from docs.python.org: Tutorial Start"
-        },
-        {
-          "name": "Library",
-          "description": "Entity extracted from docs.python.org: Library"
-        },
-        {
-          "name": "Standard",
-          "description": "Entity extracted from docs.python.org: Standard"
-        },
-        {
-          "name": "Language",
-          "description": "Entity extracted from docs.python.org: Language"
-        },
-        {
-          "name": "Syntax",
-          "description": "Entity extracted from docs.python.org: Syntax"
-        },
-        {
-          "name": "How",
-          "description": "Entity extracted from docs.python.org: How"
-        },
-        {
-          "name": "Python Python",
-          "description": "Entity extracted from docs.python.org: Python Python"
-        },
-        {
-          "name": "Installing Python",
-          "description": "Entity extracted from docs.python.org: Installing Python"
-        },
-        {
-          "name": "Third",
-          "description": "Entity extracted from docs.python.org: Third"
-        },
-        {
-          "name": "Distributing Python",
-          "description": "Entity extracted from docs.python.org: Distributing Python"
-        },
-        {
-          "name": "Publishing",
-          "description": "Entity extracted from docs.python.org: Publishing"
-        },
-        {
-          "name": "Extending",
-          "description": "Entity extracted from docs.python.org: Extending"
-        },
-        {
-          "name": "For",
-          "description": "Entity extracted from docs.python.org: For"
-        }
-      ],
-      "relationships": [
-        {
-          "entity1": {
-            "name": "Documentation Navigation"
-          },
-          "entity2": {
-            "name": "Python"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation Navigation"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation Navigation index modules | Python \u00bb 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Theme Auto Light Dark Python"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "Theme Auto Light Dark Python"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 Documentation \u00bb Theme Auto Light Dark Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "Welcome"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 7 documentation Welcome..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "This"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "For"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "This"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "For"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "This"
-          },
-          "entity2": {
-            "name": "For"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "What"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
-        }
-      ],
-      "error": false,
-      "extraction_method": "rule_based",
-      "text_length": 2307,
-      "source_url": "https://docs.python.org"
-    },
-    {
-      "entities": [
-        {
-          "name": "Documentation Navigation",
-          "description": "Entity extracted from docs.python.org: Documentation Navigation"
-        },
-        {
-          "name": "Python",
-          "description": "Entity extracted from docs.python.org: Python"
+          "name": "Navigation",
+          "description": "Entity extracted from docs.python.org: Navigation"
         },
         {
           "name": "Documentation",
           "description": "Entity extracted from docs.python.org: Documentation"
         },
         {
-          "name": "Theme Auto Light Dark Python",
-          "description": "Entity extracted from docs.python.org: Theme Auto Light Dark Python"
-        },
-        {
-          "name": "Welcome",
-          "description": "Entity extracted from docs.python.org: Welcome"
-        },
-        {
           "name": "This",
           "description": "Entity extracted from docs.python.org: This"
         },
         {
-          "name": "What",
-          "description": "Entity extracted from docs.python.org: What"
+          "name": "The Python",
+          "description": "Entity extracted from docs.python.org: The Python"
         },
         {
-          "name": "Tutorial Start",
-          "description": "Entity extracted from docs.python.org: Tutorial Start"
+          "name": "The",
+          "description": "Entity extracted from docs.python.org: The"
         },
         {
-          "name": "Library",
-          "description": "Entity extracted from docs.python.org: Library"
+          "name": "For",
+          "description": "Entity extracted from docs.python.org: For"
         },
         {
-          "name": "Standard",
-          "description": "Entity extracted from docs.python.org: Standard"
+          "name": "The Python Standard Library",
+          "description": "Entity extracted from docs.python.org: The Python Standard Library"
         },
         {
-          "name": "Language",
-          "description": "Entity extracted from docs.python.org: Language"
-        },
-        {
-          "name": "Syntax",
-          "description": "Entity extracted from docs.python.org: Syntax"
-        },
-        {
-          "name": "How",
-          "description": "Entity extracted from docs.python.org: How"
-        },
-        {
-          "name": "Python Python",
-          "description": "Entity extracted from docs.python.org: Python Python"
-        },
-        {
-          "name": "Installing Python",
-          "description": "Entity extracted from docs.python.org: Installing Python"
-        },
-        {
-          "name": "Third",
-          "description": "Entity extracted from docs.python.org: Third"
-        },
-        {
-          "name": "Distributing Python",
-          "description": "Entity extracted from docs.python.org: Distributing Python"
-        },
-        {
-          "name": "Publishing",
-          "description": "Entity extracted from docs.python.org: Publishing"
+          "name": "The Python Language Reference",
+          "description": "Entity extracted from docs.python.org: The Python Language Reference"
         },
         {
           "name": "Extending",
           "description": "Entity extracted from docs.python.org: Extending"
         },
         {
-          "name": "For",
-          "description": "Entity extracted from docs.python.org: For"
+          "name": "Embedding",
+          "description": "Entity extracted from docs.python.org: Embedding"
+        },
+        {
+          "name": "Python Interpreter",
+          "description": "Entity extracted from docs.python.org: Python Interpreter"
+        },
+        {
+          "name": "Reference Manual",
+          "description": "Entity extracted from docs.python.org: Reference Manual"
+        },
+        {
+          "name": "There",
+          "description": "Entity extracted from docs.python.org: There"
+        },
+        {
+          "name": "Instead",
+          "description": "Entity extracted from docs.python.org: Instead"
+        },
+        {
+          "name": "After",
+          "description": "Entity extracted from docs.python.org: After"
+        },
+        {
+          "name": "The Glossary",
+          "description": "Entity extracted from docs.python.org: The Glossary"
+        },
+        {
+          "name": "Whetting Your Appetite",
+          "description": "Entity extracted from docs.python.org: Whetting Your Appetite"
+        },
+        {
+          "name": "Using",
+          "description": "Entity extracted from docs.python.org: Using"
         }
       ],
       "relationships": [
         {
           "entity1": {
-            "name": "Documentation Navigation"
+            "name": "The Python Tutorial"
           },
           "entity2": {
             "name": "Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Documentation Navigation"
+            "name": "The Python Tutorial"
           },
           "entity2": {
-            "name": "Documentation"
+            "name": "The Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Python"
+            "name": "The Python Tutorial"
           },
           "entity2": {
-            "name": "Documentation"
+            "name": "The"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation Navigation index modules | Python \u00bb 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
         },
         {
           "entity1": {
             "name": "Python"
           },
           "entity2": {
-            "name": "Theme Auto Light Dark Python"
+            "name": "The Python"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Documentation"
+            "name": "Python"
           },
           "entity2": {
-            "name": "Theme Auto Light Dark Python"
+            "name": "The"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 Documentation \u00bb Theme Auto Light Dark Python 3..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
         },
         {
           "entity1": {
-            "name": "Documentation"
+            "name": "The Python"
           },
           "entity2": {
-            "name": "Welcome"
+            "name": "The"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context: 0rc2 documentation Welcome..."
+          "description": "Relationship found in context: The Python Tutorial \u2014 Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Python"
+          },
+          "entity2": {
+            "name": "Navigation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
         },
         {
           "entity1": {
@@ -411,83 +171,83 @@
             "name": "Documentation"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
         },
         {
           "entity1": {
+            "name": "Navigation"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
+        },
+        {
+          "entity1": {
+            "name": "The Python Tutorial"
+          },
+          "entity2": {
             "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
+        },
+        {
+          "entity1": {
+            "name": "The Python Tutorial"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
+        },
+        {
+          "entity1": {
+            "name": "The Python Tutorial"
           },
           "entity2": {
             "name": "This"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
         },
         {
           "entity1": {
-            "name": "Python"
+            "name": "The Python Tutorial"
+          },
+          "entity2": {
+            "name": "The Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
+        },
+        {
+          "entity1": {
+            "name": "The Python Tutorial"
+          },
+          "entity2": {
+            "name": "The"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
+        },
+        {
+          "entity1": {
+            "name": "The Python Tutorial"
           },
           "entity2": {
             "name": "For"
           },
           "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "This"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Documentation"
-          },
-          "entity2": {
-            "name": "For"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "This"
-          },
-          "entity2": {
-            "name": "For"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  This is the official documentation for Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "Documentation"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
-        },
-        {
-          "entity1": {
-            "name": "Python"
-          },
-          "entity2": {
-            "name": "What"
-          },
-          "relation_type": "RELATED_TO",
-          "description": "Relationship found in context:  Documentation sections: What's new in Python 3..."
+          "description": "Relationship found in context: 7 Documentation \u00bb The Python Tutorial Theme Auto Light Dark The Python Tutorial\u00b6 This tutorial is de..."
         }
       ],
       "error": false,
       "extraction_method": "rule_based",
-      "text_length": 2316,
-      "source_url": "https://docs.python.org/3.14/"
+      "text_length": 6955,
+      "source_url": "https://docs.python.org/3/tutorial/"
     },
     {
       "entities": [
@@ -728,6 +488,246 @@
       "extraction_method": "rule_based",
       "text_length": 8000,
       "source_url": "https://docs.python.org/license.html"
+    },
+    {
+      "entities": [
+        {
+          "name": "Dealing",
+          "description": "Entity extracted from docs.python.org: Dealing"
+        },
+        {
+          "name": "Bugs",
+          "description": "Entity extracted from docs.python.org: Bugs"
+        },
+        {
+          "name": "Python",
+          "description": "Entity extracted from docs.python.org: Python"
+        },
+        {
+          "name": "Navigation",
+          "description": "Entity extracted from docs.python.org: Navigation"
+        },
+        {
+          "name": "Documentation",
+          "description": "Entity extracted from docs.python.org: Documentation"
+        },
+        {
+          "name": "Bugs Theme Auto Light Dark Dealing",
+          "description": "Entity extracted from docs.python.org: Bugs Theme Auto Light Dark Dealing"
+        },
+        {
+          "name": "Learn",
+          "description": "Entity extracted from docs.python.org: Learn"
+        },
+        {
+          "name": "You",
+          "description": "Entity extracted from docs.python.org: You"
+        },
+        {
+          "name": "Documentation Discourse",
+          "description": "Entity extracted from docs.python.org: Documentation Discourse"
+        },
+        {
+          "name": "See",
+          "description": "Entity extracted from docs.python.org: See"
+        },
+        {
+          "name": "Issue",
+          "description": "Entity extracted from docs.python.org: Issue"
+        },
+        {
+          "name": "Helping",
+          "description": "Entity extracted from docs.python.org: Helping"
+        },
+        {
+          "name": "Using",
+          "description": "Entity extracted from docs.python.org: Using"
+        },
+        {
+          "name": "The",
+          "description": "Entity extracted from docs.python.org: The"
+        },
+        {
+          "name": "Sign",
+          "description": "Entity extracted from docs.python.org: Sign"
+        },
+        {
+          "name": "Being",
+          "description": "Entity extracted from docs.python.org: Being"
+        },
+        {
+          "name": "Click",
+          "description": "Entity extracted from docs.python.org: Click"
+        },
+        {
+          "name": "New",
+          "description": "Entity extracted from docs.python.org: New"
+        },
+        {
+          "name": "Title",
+          "description": "Entity extracted from docs.python.org: Title"
+        },
+        {
+          "name": "Comment",
+          "description": "Entity extracted from docs.python.org: Comment"
+        }
+      ],
+      "relationships": [
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Bugs"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: Dealing with Bugs \u2014 Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: Dealing with Bugs \u2014 Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Bugs"
+          },
+          "entity2": {
+            "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: Dealing with Bugs \u2014 Python 3..."
+        },
+        {
+          "entity1": {
+            "name": "Python"
+          },
+          "entity2": {
+            "name": "Navigation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
+        },
+        {
+          "entity1": {
+            "name": "Python"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
+        },
+        {
+          "entity1": {
+            "name": "Navigation"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 documentation Navigation index modules | next | previous | Python \u00bb 3..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Bugs"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "Bugs Theme Auto Light Dark Dealing"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Dealing"
+          },
+          "entity2": {
+            "name": "The"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Bugs"
+          },
+          "entity2": {
+            "name": "Python"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Bugs"
+          },
+          "entity2": {
+            "name": "Documentation"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Bugs"
+          },
+          "entity2": {
+            "name": "Bugs Theme Auto Light Dark Dealing"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        },
+        {
+          "entity1": {
+            "name": "Bugs"
+          },
+          "entity2": {
+            "name": "The"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Relationship found in context: 7 Documentation \u00bb Dealing with Bugs Theme Auto Light Dark Dealing with Bugs\u00b6 Python is a mature prog..."
+        }
+      ],
+      "error": false,
+      "extraction_method": "rule_based",
+      "text_length": 4931,
+      "source_url": "https://docs.python.org/bugs.html"
     }
   ]
 }
