@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "timestamp": "2025-09-01T21:55:22+00:00",
-  "run_id": "17",
-  "url_scraped": "https://www.mainelistings.com/listings?_keywordsAll=city_portland%7CPortland&class=Residential&MlsStatusIn=Active%2CActive%20Under%20Contract&MlsStatus_spark=MlsStatus",
+  "timestamp": "2025-09-02T06:38:11+00:00",
+  "run_id": "18",
+  "url_scraped": "https://crawl4ai.com/",
   "files_available": 3
 }

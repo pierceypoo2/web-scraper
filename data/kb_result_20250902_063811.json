@@ -1,0 +1,487 @@
+[
+  {
+    "entities": [
+      {
+        "name": "Home",
+        "description": "Entity extracted from crawl4ai.com: Home"
+      },
+      {
+        "name": "Documentation",
+        "description": "Entity extracted from crawl4ai.com: Documentation"
+      },
+      {
+        "name": "Open",
+        "description": "Entity extracted from crawl4ai.com: Open"
+      },
+      {
+        "name": "Source",
+        "description": "Entity extracted from crawl4ai.com: Source"
+      },
+      {
+        "name": "Friendly Web Crawler",
+        "description": "Entity extracted from crawl4ai.com: Friendly Web Crawler"
+      },
+      {
+        "name": "Scraper",
+        "description": "Entity extracted from crawl4ai.com: Scraper"
+      },
+      {
+        "name": "Fully",
+        "description": "Entity extracted from crawl4ai.com: Fully"
+      },
+      {
+        "name": "Note",
+        "description": "Entity extracted from crawl4ai.com: Note"
+      },
+      {
+        "name": "New",
+        "description": "Entity extracted from crawl4ai.com: New"
+      },
+      {
+        "name": "Adaptive Web Crawling",
+        "description": "Entity extracted from crawl4ai.com: Adaptive Web Crawling"
+      },
+      {
+        "name": "Using",
+        "description": "Entity extracted from crawl4ai.com: Using"
+      },
+      {
+        "name": "Learn",
+        "description": "Entity extracted from crawl4ai.com: Learn"
+      },
+      {
+        "name": "Adaptive Crawling",
+        "description": "Entity extracted from crawl4ai.com: Adaptive Crawling"
+      },
+      {
+        "name": "Quick Start Here",
+        "description": "Entity extracted from crawl4ai.com: Quick Start Here"
+      },
+      {
+        "name": "Create",
+        "description": "Entity extracted from crawl4ai.com: Create"
+      },
+      {
+        "name": "Run",
+        "description": "Entity extracted from crawl4ai.com: Run"
+      },
+      {
+        "name": "Print",
+        "description": "Entity extracted from crawl4ai.com: Print"
+      },
+      {
+        "name": "Video Tutorial What Does",
+        "description": "Entity extracted from crawl4ai.com: Video Tutorial What Does"
+      },
+      {
+        "name": "Generate Clean Markdown",
+        "description": "Entity extracted from crawl4ai.com: Generate Clean Markdown"
+      },
+      {
+        "name": "Perfect",
+        "description": "Entity extracted from crawl4ai.com: Perfect"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Home"
+        },
+        "entity2": {
+          "name": "Documentation"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Home - Crawl4AI Documentation (v0..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Friendly Web Crawler"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Documentation"
+        },
+        "entity2": {
+          "name": "Note"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Note: If you're looking for the old documentation, you can access it here..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Web Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Adaptive Web Crawling"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Learn"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Learn more about Adaptive Crawling → Quick Start Here's a quick example to show you how easy it is ..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "rule_based",
+    "text_length": 3916,
+    "source_url": "https://crawl4ai.com/"
+  },
+  {
+    "error": true,
+    "message": "HTTPSConnectionPool(host='old.docs.crawl4ai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7fe729a09310>: Failed to resolve 'old.docs.crawl4ai.com' ([Errno -5] No address associated with hostname)\"))",
+    "source_url": "https://old.docs.crawl4ai.com"
+  },
+  {
+    "entities": [
+      {
+        "name": "Home",
+        "description": "Entity extracted from docs.crawl4ai.com: Home"
+      },
+      {
+        "name": "Documentation",
+        "description": "Entity extracted from docs.crawl4ai.com: Documentation"
+      },
+      {
+        "name": "Open",
+        "description": "Entity extracted from docs.crawl4ai.com: Open"
+      },
+      {
+        "name": "Source",
+        "description": "Entity extracted from docs.crawl4ai.com: Source"
+      },
+      {
+        "name": "Friendly Web Crawler",
+        "description": "Entity extracted from docs.crawl4ai.com: Friendly Web Crawler"
+      },
+      {
+        "name": "Scraper",
+        "description": "Entity extracted from docs.crawl4ai.com: Scraper"
+      },
+      {
+        "name": "Fully",
+        "description": "Entity extracted from docs.crawl4ai.com: Fully"
+      },
+      {
+        "name": "Note",
+        "description": "Entity extracted from docs.crawl4ai.com: Note"
+      },
+      {
+        "name": "New",
+        "description": "Entity extracted from docs.crawl4ai.com: New"
+      },
+      {
+        "name": "Adaptive Web Crawling",
+        "description": "Entity extracted from docs.crawl4ai.com: Adaptive Web Crawling"
+      },
+      {
+        "name": "Using",
+        "description": "Entity extracted from docs.crawl4ai.com: Using"
+      },
+      {
+        "name": "Learn",
+        "description": "Entity extracted from docs.crawl4ai.com: Learn"
+      },
+      {
+        "name": "Adaptive Crawling",
+        "description": "Entity extracted from docs.crawl4ai.com: Adaptive Crawling"
+      },
+      {
+        "name": "Quick Start Here",
+        "description": "Entity extracted from docs.crawl4ai.com: Quick Start Here"
+      },
+      {
+        "name": "Create",
+        "description": "Entity extracted from docs.crawl4ai.com: Create"
+      },
+      {
+        "name": "Run",
+        "description": "Entity extracted from docs.crawl4ai.com: Run"
+      },
+      {
+        "name": "Print",
+        "description": "Entity extracted from docs.crawl4ai.com: Print"
+      },
+      {
+        "name": "Video Tutorial What Does",
+        "description": "Entity extracted from docs.crawl4ai.com: Video Tutorial What Does"
+      },
+      {
+        "name": "Generate Clean Markdown",
+        "description": "Entity extracted from docs.crawl4ai.com: Generate Clean Markdown"
+      },
+      {
+        "name": "Perfect",
+        "description": "Entity extracted from docs.crawl4ai.com: Perfect"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Home"
+        },
+        "entity2": {
+          "name": "Documentation"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: Home - Crawl4AI Documentation (v0..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Friendly Web Crawler"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Friendly Web Crawler"
+        },
+        "entity2": {
+          "name": "Scraper"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context: x) 🚀🤖 Crawl4AI: Open-Source LLM-Friendly Web Crawler & Scraper Crawl4AI is the #1 trending GitHub re..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Source"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Open"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Source"
+        },
+        "entity2": {
+          "name": "Fully"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Fully open source, flexible, and built for real-time performance, Crawl4AI empowers developers with..."
+      },
+      {
+        "entity1": {
+          "name": "Documentation"
+        },
+        "entity2": {
+          "name": "Note"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Note: If you're looking for the old documentation, you can access it here..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Web Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "New"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Adaptive Web Crawling"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  🎯 New: Adaptive Web Crawling Crawl4AI now features intelligent adaptive crawling that knows when to..."
+      },
+      {
+        "entity1": {
+          "name": "Learn"
+        },
+        "entity2": {
+          "name": "Adaptive Crawling"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Relationship found in context:  Learn more about Adaptive Crawling → Quick Start Here's a quick example to show you how easy it is ..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "rule_based",
+    "text_length": 3916,
+    "source_url": "https://docs.crawl4ai.com/"
+  }
+]

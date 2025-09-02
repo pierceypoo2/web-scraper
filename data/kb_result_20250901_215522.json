@@ -1,7 +1,0 @@
-[
-  {
-    "error": true,
-    "message": "403 Client Error: Forbidden for url: https://www.mainelistings.com/listings?_keywordsAll=city_portland%7CPortland&class=Residential&MlsStatusIn=Active%2CActive%20Under%20Contract&MlsStatus_spark=MlsStatus",
-    "source_url": "https://www.mainelistings.com/listings?_keywordsAll=city_portland%7CPortland&class=Residential&MlsStatusIn=Active%2CActive%20Under%20Contract&MlsStatus_spark=MlsStatus"
-  }
-]
