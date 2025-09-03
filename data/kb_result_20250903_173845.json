@@ -1,0 +1,7 @@
+[
+  {
+    "error": true,
+    "message": "Failed after 5 attempts: HTTPSConnectionPool(host='www.zillow.com', port=443): Max retries exceeded with url: /homes/for_sale/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 407 Proxy Authentication Required')))",
+    "source_url": "https://www.zillow.com/homes/for_sale/"
+  }
+]

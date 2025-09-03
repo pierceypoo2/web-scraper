@@ -1,7 +1,0 @@
-[
-  {
-    "error": true,
-    "message": "Failed after 5 attempts: HTTPSConnectionPool(host='crawl4ai.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f624024c750>: Failed to establish a new connection: [Errno 111] Connection refused')))",
-    "source_url": "https://crawl4ai.com/"
-  }
-]
