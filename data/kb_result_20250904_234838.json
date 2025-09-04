@@ -1,7 +1,0 @@
-[
-  {
-    "error": true,
-    "message": "403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/example-property/",
-    "source_url": "https://www.zillow.com/homedetails/example-property/"
-  }
-]
