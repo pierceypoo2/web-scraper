@@ -1,7 +1,7 @@
 {
   "status": "success",
-  "timestamp": "2025-09-03T17:38:45+00:00",
-  "run_id": "21",
-  "url_scraped": "https://www.zillow.com/homes/for_sale/",
+  "timestamp": "2025-09-04T06:37:02+00:00",
+  "run_id": "22",
+  "url_scraped": "https://crawl4ai.com/",
   "files_available": 3
 }
