@@ -1,4 +1,4 @@
-name: Free Web Scraping Pipeline
+name: Free Web Scraping Pipeline with Zillow API
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       start_url:
         description: 'Starting URL to scrape'
         required: true
-        default: 'https://crawl4ai.com/'
+        default: 'https://www.zillow.com/homedetails/example-property/'
       extract_type:
         description: 'What to extract'
         required: true
@@ -29,6 +29,11 @@ on:
     paths:
       - 'scripts/**'
       - '.github/workflows/scraping.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   scrape-and-process:
@@ -55,13 +60,15 @@ jobs:
         mkdir -p output
         mkdir -p web_interface/data
         
-    - name: Run scraping pipeline
+    - name: Run scraping pipeline with API support
       env:
-        START_URL: ${{ github.event.inputs.start_url || 'https://crawl4ai.com/' }}
+        START_URL: ${{ github.event.inputs.start_url || 'https://www.zillow.com/' }}
         EXTRACT_TYPE: ${{ github.event.inputs.extract_type || 'entities_relationships' }}
         MAX_PAGES: ${{ github.event.inputs.max_pages || '3' }}
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         cd scripts
+        echo "🔑 API Key Status: $([[ -n "$RAPIDAPI_KEY" ]] && echo "✅ Available" || echo "❌ Missing")"
         python free_scraper.py
         
     - name: Convert to Cypher
@@ -69,21 +76,35 @@ jobs:
         cd scripts
         python convert_to_cypher.py
         
+    - name: Show results preview
+      run: |
+        echo "=== 📊 SCRAPING RESULTS ==="
+        echo "Files created:"
+        ls -la output/
+        echo ""
+        echo "=== 📄 JSON Preview ==="
+        head -30 output/*.json | head -20
+        echo ""
+        echo "=== 🗄️ Cypher Preview ==="
+        head -10 output/*.cypher | head -10
+        
     - name: Prepare web interface data
       run: |
         # Copy results to web interface for display
         cp output/*.json web_interface/data/ 2>/dev/null || true
         
-        # Create status file for the website
+        # Create enhanced status file
         echo "{
           \"status\": \"success\",
           \"timestamp\": \"$(date -Iseconds)\",
           \"run_id\": \"${{ github.run_number }}\",
-          \"url_scraped\": \"${{ github.event.inputs.start_url || 'https://crawl4ai.com/' }}\",
-          \"files_available\": $(ls output/*.json 2>/dev/null | wc -l)
+          \"url_scraped\": \"${{ github.event.inputs.start_url || 'https://zillow.com/' }}\",
+          \"api_enabled\": $([[ -n \"${{ secrets.RAPIDAPI_KEY }}\" ]] && echo \"true\" || echo \"false\"),
+          \"files_available\": $(ls output/*.json 2>/dev/null | wc -l),
+          \"extraction_type\": \"${{ github.event.inputs.extract_type || 'entities_relationships' }}\"
         }" > web_interface/data/status.json
         
-    - name: Upload artifacts (FIXED VERSION)
+    - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
         name: scraping-results-${{ github.run_number }}
