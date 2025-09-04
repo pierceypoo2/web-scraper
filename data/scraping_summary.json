@@ -1,19 +1,19 @@
 {
   "pipeline_status": "completed",
-  "timestamp": "2025-09-04T23:37:05.552970",
-  "start_url": "https://www.zillow.com/",
+  "timestamp": "2025-09-04T23:48:38.432972",
+  "start_url": "https://www.zillow.com/homedetails/example-property/",
   "extract_type": "entities_relationships",
   "urls_processed": 1,
   "successful_scrapes": 0,
   "api_enhanced_scrapes": 0,
   "total_entities": 0,
   "total_relationships": 0,
-  "output_file": "../output/kb_result_20250904_233705.json",
+  "output_file": "../output/kb_result_20250904_234838.json",
   "data": [
     {
       "error": true,
-      "message": "403 Client Error: Forbidden for url: https://www.zillow.com/",
-      "source_url": "https://www.zillow.com/"
+      "message": "403 Client Error: Forbidden for url: https://www.zillow.com/homedetails/example-property/",
+      "source_url": "https://www.zillow.com/homedetails/example-property/"
     }
   ]
 }

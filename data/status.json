@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "timestamp": "2025-09-04T23:37:05+00:00",
-  "run_id": "24",
-  "url_scraped": "https://zillow.com/",
+  "timestamp": "2025-09-04T23:48:38+00:00",
+  "run_id": "25",
+  "url_scraped": "https://www.zillow.com/homedetails/example-property/",
   "api_enabled": "true",
   "files_available": 3,
   "extraction_type": "entities_relationships"
