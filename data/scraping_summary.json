@@ -1,19 +1,88 @@
 {
   "pipeline_status": "completed",
-  "timestamp": "2025-09-04T06:37:02.874936",
+  "timestamp": "2025-09-04T23:36:32.175347",
   "start_url": "https://crawl4ai.com/",
   "extract_type": "entities_relationships",
   "urls_processed": 1,
-  "successful_scrapes": 0,
-  "failed_scrapes": 1,
-  "total_entities": 0,
-  "total_relationships": 0,
-  "output_file": "../output/kb_result_20250904_063702.json",
-  "scraping_method": "enhanced_anti_detection",
+  "successful_scrapes": 1,
+  "api_enhanced_scrapes": 0,
+  "total_entities": 14,
+  "total_relationships": 1,
+  "output_file": "../output/kb_result_20250904_233632.json",
   "data": [
     {
-      "error": true,
-      "message": "Failed after 5 attempts: HTTPSConnectionPool(host='crawl4ai.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 400 Bad Request')))",
+      "entities": [
+        {
+          "name": "Using",
+          "description": "Entity from crawl4ai.com: Using"
+        },
+        {
+          "name": "Core Philosophies",
+          "description": "Entity from crawl4ai.com: Core Philosophies"
+        },
+        {
+          "name": "Throughout",
+          "description": "Entity from crawl4ai.com: Throughout"
+        },
+        {
+          "name": "Installation Basic",
+          "description": "Entity from crawl4ai.com: Installation Basic"
+        },
+        {
+          "name": "Quick Start",
+          "description": "Entity from crawl4ai.com: Quick Start"
+        },
+        {
+          "name": "Reference Changelog Thank",
+          "description": "Entity from crawl4ai.com: Reference Changelog Thank"
+        },
+        {
+          "name": "Perfect",
+          "description": "Entity from crawl4ai.com: Perfect"
+        },
+        {
+          "name": "Markdown",
+          "description": "Entity from crawl4ai.com: Markdown"
+        },
+        {
+          "name": "Core Deeper",
+          "description": "Entity from crawl4ai.com: Core Deeper"
+        },
+        {
+          "name": "Fork",
+          "description": "Entity from crawl4ai.com: Fork"
+        },
+        {
+          "name": "Unclecode",
+          "description": "Entity from crawl4ai.com: Unclecode"
+        },
+        {
+          "name": "Parse",
+          "description": "Entity from crawl4ai.com: Parse"
+        },
+        {
+          "name": "Repo Installation Guide Quick Start",
+          "description": "Entity from crawl4ai.com: Repo Installation Guide Quick Start"
+        },
+        {
+          "name": "Word",
+          "description": "Entity from crawl4ai.com: Word"
+        }
+      ],
+      "relationships": [
+        {
+          "entity1": {
+            "name": "Perfect"
+          },
+          "entity2": {
+            "name": "Markdown"
+          },
+          "relation_type": "RELATED_TO",
+          "description": "Entities mentioned together: \u2000Generate Clean Markdown: Perfect for RAG pipelines or direct ingestion into LLMs..."
+        }
+      ],
+      "error": false,
+      "extraction_method": "standard_scraping",
       "source_url": "https://crawl4ai.com/"
     }
   ]

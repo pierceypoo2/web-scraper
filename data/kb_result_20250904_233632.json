@@ -1,0 +1,77 @@
+[
+  {
+    "entities": [
+      {
+        "name": "Using",
+        "description": "Entity from crawl4ai.com: Using"
+      },
+      {
+        "name": "Core Philosophies",
+        "description": "Entity from crawl4ai.com: Core Philosophies"
+      },
+      {
+        "name": "Throughout",
+        "description": "Entity from crawl4ai.com: Throughout"
+      },
+      {
+        "name": "Installation Basic",
+        "description": "Entity from crawl4ai.com: Installation Basic"
+      },
+      {
+        "name": "Quick Start",
+        "description": "Entity from crawl4ai.com: Quick Start"
+      },
+      {
+        "name": "Reference Changelog Thank",
+        "description": "Entity from crawl4ai.com: Reference Changelog Thank"
+      },
+      {
+        "name": "Perfect",
+        "description": "Entity from crawl4ai.com: Perfect"
+      },
+      {
+        "name": "Markdown",
+        "description": "Entity from crawl4ai.com: Markdown"
+      },
+      {
+        "name": "Core Deeper",
+        "description": "Entity from crawl4ai.com: Core Deeper"
+      },
+      {
+        "name": "Fork",
+        "description": "Entity from crawl4ai.com: Fork"
+      },
+      {
+        "name": "Unclecode",
+        "description": "Entity from crawl4ai.com: Unclecode"
+      },
+      {
+        "name": "Parse",
+        "description": "Entity from crawl4ai.com: Parse"
+      },
+      {
+        "name": "Repo Installation Guide Quick Start",
+        "description": "Entity from crawl4ai.com: Repo Installation Guide Quick Start"
+      },
+      {
+        "name": "Word",
+        "description": "Entity from crawl4ai.com: Word"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "Perfect"
+        },
+        "entity2": {
+          "name": "Markdown"
+        },
+        "relation_type": "RELATED_TO",
+        "description": "Entities mentioned together:  Generate Clean Markdown: Perfect for RAG pipelines or direct ingestion into LLMs..."
+      }
+    ],
+    "error": false,
+    "extraction_method": "standard_scraping",
+    "source_url": "https://crawl4ai.com/"
+  }
+]
