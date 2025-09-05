@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "timestamp": "2025-09-05T00:06:48+00:00",
-  "run_id": "29",
-  "url_scraped": "Los Angeles, CA",
+  "timestamp": "2025-09-05T00:11:39+00:00",
+  "run_id": "30",
+  "url_scraped": "https://zillow.com/",
   "api_enabled": "true",
   "files_available": 3,
   "extraction_type": "entities_relationships"

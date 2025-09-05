@@ -1,0 +1,192 @@
+[
+  {
+    "entities": [
+      {
+        "name": "123 Main St Los Angeles CA 90210",
+        "description": "Property from Zillow API (mock-data)"
+      },
+      {
+        "name": "$750,000",
+        "description": "Property price"
+      },
+      {
+        "name": "3 bedrooms",
+        "description": "Number of bedrooms"
+      },
+      {
+        "name": "2.0 bathrooms",
+        "description": "Number of bathrooms"
+      },
+      {
+        "name": "1,800 sqft",
+        "description": "Living area square footage"
+      },
+      {
+        "name": "456 Oak Ave Los Angeles CA 90211",
+        "description": "Property from Zillow API (mock-data)"
+      },
+      {
+        "name": "$950,000",
+        "description": "Property price"
+      },
+      {
+        "name": "4 bedrooms",
+        "description": "Number of bedrooms"
+      },
+      {
+        "name": "3.0 bathrooms",
+        "description": "Number of bathrooms"
+      },
+      {
+        "name": "2,200 sqft",
+        "description": "Living area square footage"
+      },
+      {
+        "name": "789 Pine Rd Los Angeles CA 90212",
+        "description": "Property from Zillow API (mock-data)"
+      },
+      {
+        "name": "$1,200,000",
+        "description": "Property price"
+      },
+      {
+        "name": "5 bedrooms",
+        "description": "Number of bedrooms"
+      },
+      {
+        "name": "4.0 bathrooms",
+        "description": "Number of bathrooms"
+      },
+      {
+        "name": "2,800 sqft",
+        "description": "Living area square footage"
+      }
+    ],
+    "relationships": [
+      {
+        "entity1": {
+          "name": "123 Main St Los Angeles CA 90210"
+        },
+        "entity2": {
+          "name": "$750,000"
+        },
+        "relation_type": "PRICED_AT",
+        "description": "Property priced at $750,000"
+      },
+      {
+        "entity1": {
+          "name": "123 Main St Los Angeles CA 90210"
+        },
+        "entity2": {
+          "name": "3 bedrooms"
+        },
+        "relation_type": "HAS_BEDROOMS",
+        "description": "Property has 3 bedrooms"
+      },
+      {
+        "entity1": {
+          "name": "123 Main St Los Angeles CA 90210"
+        },
+        "entity2": {
+          "name": "2.0 bathrooms"
+        },
+        "relation_type": "HAS_BATHROOMS",
+        "description": "Property has 2.0 bathrooms"
+      },
+      {
+        "entity1": {
+          "name": "123 Main St Los Angeles CA 90210"
+        },
+        "entity2": {
+          "name": "1,800 sqft"
+        },
+        "relation_type": "HAS_AREA",
+        "description": "Property has 1,800 square feet"
+      },
+      {
+        "entity1": {
+          "name": "456 Oak Ave Los Angeles CA 90211"
+        },
+        "entity2": {
+          "name": "$950,000"
+        },
+        "relation_type": "PRICED_AT",
+        "description": "Property priced at $950,000"
+      },
+      {
+        "entity1": {
+          "name": "456 Oak Ave Los Angeles CA 90211"
+        },
+        "entity2": {
+          "name": "4 bedrooms"
+        },
+        "relation_type": "HAS_BEDROOMS",
+        "description": "Property has 4 bedrooms"
+      },
+      {
+        "entity1": {
+          "name": "456 Oak Ave Los Angeles CA 90211"
+        },
+        "entity2": {
+          "name": "3.0 bathrooms"
+        },
+        "relation_type": "HAS_BATHROOMS",
+        "description": "Property has 3.0 bathrooms"
+      },
+      {
+        "entity1": {
+          "name": "456 Oak Ave Los Angeles CA 90211"
+        },
+        "entity2": {
+          "name": "2,200 sqft"
+        },
+        "relation_type": "HAS_AREA",
+        "description": "Property has 2,200 square feet"
+      },
+      {
+        "entity1": {
+          "name": "789 Pine Rd Los Angeles CA 90212"
+        },
+        "entity2": {
+          "name": "$1,200,000"
+        },
+        "relation_type": "PRICED_AT",
+        "description": "Property priced at $1,200,000"
+      },
+      {
+        "entity1": {
+          "name": "789 Pine Rd Los Angeles CA 90212"
+        },
+        "entity2": {
+          "name": "5 bedrooms"
+        },
+        "relation_type": "HAS_BEDROOMS",
+        "description": "Property has 5 bedrooms"
+      },
+      {
+        "entity1": {
+          "name": "789 Pine Rd Los Angeles CA 90212"
+        },
+        "entity2": {
+          "name": "4.0 bathrooms"
+        },
+        "relation_type": "HAS_BATHROOMS",
+        "description": "Property has 4.0 bathrooms"
+      },
+      {
+        "entity1": {
+          "name": "789 Pine Rd Los Angeles CA 90212"
+        },
+        "entity2": {
+          "name": "2,800 sqft"
+        },
+        "relation_type": "HAS_AREA",
+        "description": "Property has 2,800 square feet"
+      }
+    ],
+    "error": false,
+    "extraction_method": "zillow_api_mock-data",
+    "properties_processed": 3,
+    "api_used": "mock-data"
+  }
+]
