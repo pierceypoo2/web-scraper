@@ -1,12 +1,12 @@
 {
   "pipeline_status": "completed",
-  "timestamp": "2026-03-08T06:55:04.059102",
+  "timestamp": "2026-03-09T07:12:06.086445",
   "search_location": "Los Angeles, CA",
   "method": "zillow_api_mock-data",
   "successful": true,
   "total_entities": 15,
   "total_relationships": 12,
-  "output_file": "../output/kb_result_20260308_065504.json",
+  "output_file": "../output/kb_result_20260309_071206.json",
   "properties_found": 3,
   "api_used": "mock-data",
   "data": [
