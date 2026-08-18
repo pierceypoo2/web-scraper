@@ -1,0 +1,8 @@
+{
+  "cypher_file": "../output/neo4j_query_20260818_065457.cypher",
+  "total_entities": 15,
+  "total_relationships": 12,
+  "files_processed": 1,
+  "generation_timestamp": "2026-08-18T06:54:57.592912",
+  "query_length": 4257
+}
